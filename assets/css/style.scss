@@ -54,7 +54,7 @@ This files table contents are outlined below>>>>>
 
 $common-font: 'Poppins', ;
 $transition: .5s all ease;
-$all-size: 15px;
+$all-size: 1em;
 $white-color: #ffffff;
 $grey-color: #4a6f8a;
 $blue-color: #0fb8c3;
@@ -241,7 +241,7 @@ button {
 
 /*-- Navbar --*/
 .navbar-light .navbar-brand, .navbar-light .navbar-brand:hover {
-    width: 95px;
+    width: 200px;
 }
 .main-nav {
     background: $white-color;
@@ -301,7 +301,7 @@ button {
                 }
                 a {
                     font-weight: 500;
-                    font-size: 16px;
+                    font-size: 20px;
                     color: $grey-color;
                     text-transform: capitalize;
 
@@ -3954,16 +3954,16 @@ footer {
 /*----- SERVICES DETAILS PAGE -----*/
 /*-- Service Details --*/
 .services-details-img {
-    margin-bottom: 50px;
+    
 
     img {
         width: 100%;
-        margin-bottom: 30px;
+        
     }
     h2 {
         font-weight: 600;
         font-size: 28px;
-        margin-bottom: 16px;
+       
     }
     P {
         margin-bottom: 20px;
@@ -4202,6 +4202,32 @@ footer {
     height: auto;
 }
 
+
+// price
+
+.tableofprices{
+    /* 
+Generic Styling, for Desktops/Laptops 
+*/
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: $blue-color; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    text-align: left; 
+  }
+}
 
 
 

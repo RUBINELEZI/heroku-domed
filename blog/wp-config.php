@@ -20,16 +20,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'epiz_26449837_blog' );
+define( 'DB_NAME', 'domedal_blog' );
 
 /** MySQL database username */
-define( 'DB_USER', 'epiz_26449837' );
+define( 'DB_USER', 'domedal_bloguser' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'HTkhiUtew1fp' );
+define( 'DB_PASSWORD', 'QUdn0#84C)ZA' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'sql100.epizy.com' );
+define( 'DB_HOST', 'localhost' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );

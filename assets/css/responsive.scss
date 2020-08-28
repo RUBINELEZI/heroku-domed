@@ -1818,11 +1818,15 @@ $black-color: #111111;
 
     /*-- Navbar --*/
     .mobile-nav .logo {
-        width: 80px;
+        width: 120px;
         top: 9px !important;
+        
     }
+
+  
     .mobile-nav.mean-container .mean-nav ul li a.active {
         color: $blue-color;
+        
     }
     .search-icon {
         display: none;
@@ -3554,7 +3558,7 @@ $black-color: #111111;
         font-size: 20px;
     }
     .mean-container .mean-bar {
-        background-color: $blue-color;
+        background-color: white;
         padding: 0;
     }
     .mean-container a.meanmenu-reveal {
@@ -3571,5 +3575,8 @@ $black-color: #111111;
         overflow-y: scroll;
     }
 }
+
+
+
 
 
