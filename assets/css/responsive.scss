@@ -522,6 +522,7 @@ $black-color: #111111;
     }
     .page-title-four .page-title-item {
         margin-top: 55px;
+        
     }
 
     /*-- Footer --*/
@@ -1204,8 +1205,10 @@ $black-color: #111111;
     /*----- Blog Details Page -----*/
     /*-- Page Title --*/
     .page-title-four {
+        background-size: 400px;
         .page-title-item {
             margin-top: 40px;
+            
         }
     }
     /*-- End Page Title --*/

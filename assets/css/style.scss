@@ -2584,7 +2584,8 @@ footer {
 /*----- Apoointment Page -----*/
 /*-- Page Title --*/
 .page-title-two {
-    background-image: url('../img/domed.jpeg');
+    background-image: url('../img/domed.png');
+    background-size: cover;
     height: 440px;
 
     .page-title-item {
@@ -2697,7 +2698,8 @@ footer {
 /*----- Doctor Details Page -----*/
 /*-- Page Title --*/
 .page-title-three {
-    background-image: url('../img/domed.jpeg');
+    background-image: url('../img/domed.png');
+    background-size: cover;
     height: 460px;
 
     .d-table-cell {
@@ -2861,7 +2863,9 @@ footer {
 /*----- Blog Details Page -----*/
 /*-- Page Title --*/
 .page-title-four {
-    background-image: url('../img/domed.jpeg');
+    background-image: url('../img/domed.png');
+    background-size: cover;
+    
 
     .page-title-item {
         margin-top: 0;
@@ -3247,8 +3251,8 @@ footer {
 /*----- Contact Page -----*/
 /*-- Page Title --*/
 .page-title-five {
-    background-image: url('../img/domed.jpeg');
-
+    background-image: url('../img/domed.png');
+    background-size: cover;
     .page-title-item {
         margin-top: -120px;
     }
@@ -3953,6 +3957,13 @@ footer {
 
 /*----- SERVICES DETAILS PAGE -----*/
 /*-- Service Details --*/
+.doctorssrv{
+   
+    img{
+        max-height: 350px;
+    }
+}
+
 .services-details-img {
     
 
@@ -4011,6 +4022,8 @@ footer {
     p {
         margin-bottom: 0;
     }
+
+  
 }
 /*-- End Service Details --*/
 /*----- END SERVICES DETAILS PAGE -----*/
