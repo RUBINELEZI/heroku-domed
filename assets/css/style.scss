@@ -241,7 +241,8 @@ button {
 
 /*-- Navbar --*/
 .navbar-light .navbar-brand, .navbar-light .navbar-brand:hover {
-    width: 125px;
+    min-width: 160px;
+    max-width: 200px;
 }
 .main-nav {
     background: $white-color;
@@ -811,9 +812,17 @@ button {
     //         }
     //     }
     // }
+    
+
     .service-front {
         transition: $transition;
         display: block;
+        align-content: center;
+        justify-items: center;
+
+       
+
+       
 
         i {
             display: block;
@@ -836,10 +845,7 @@ button {
             background-color: $blue-color;
             padding: 8px 10px;
             border-radius: 5px;
-            &:hover {
-                color: $white-color;
-                background-color: $black-color;
-            }
+           
         }
     }
     // .service-end {

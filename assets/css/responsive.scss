@@ -73,8 +73,8 @@ $black-color: #111111;
 
     /*-- Navbar --*/
     .mobile-nav .logo {
-        width: 75px;
-        top: 10px !important;
+        width: 120px;
+        top: 0px !important;
     }
     .mobile-nav.mean-container .mean-nav ul li a.active {
         color: $blue-color;
@@ -276,6 +276,7 @@ $black-color: #111111;
         }
     }
     .service-item {
+        display: block;
         &:hover {
             .service-end {
                 p {
@@ -284,6 +285,7 @@ $black-color: #111111;
             }
         }
         .service-front {
+           
             i {
                 margin-bottom: 12px;
             }
@@ -522,6 +524,8 @@ $black-color: #111111;
     }
     .page-title-four .page-title-item {
         margin-top: 55px;
+        background-image: url('../img/domed.png');
+        background-size: 1000px;
         
     }
 
@@ -1205,9 +1209,9 @@ $black-color: #111111;
     /*----- Blog Details Page -----*/
     /*-- Page Title --*/
     .page-title-four {
-        background-size: 400px;
+        background-size: 5px;
         .page-title-item {
-            margin-top: 40px;
+            margin-top: 160px;
             
         }
     }
@@ -1583,8 +1587,11 @@ $black-color: #111111;
                 }  
                 .testimonial-item {
                     img {
-                        width: 250px;
-                        height: 250px;
+                        min-width: 250px;
+                    min-height: 100px;
+
+                    max-width: 300px;
+                    max-height: 300px;
                         margin-bottom: 25px;
                     }
                     h3 {
