@@ -4,6 +4,10 @@ $blue-color:#0fb8c3;
 $black-color: #111111;
 
 @media only screen and (max-width : 767px) {
+    .domeddesk{
+        margin-top: 60px;
+    }
+
     .arrow{
         font-size: 30px;
     }
@@ -521,11 +525,11 @@ $black-color: #111111;
 
     .page-title-area {
         height: 280px;
+        
     }
     .page-title-four .page-title-item {
         margin-top: 55px;
-        background-image: url('../img/domed.png');
-        background-size: 1000px;
+       
         
     }
 
@@ -820,6 +824,7 @@ $black-color: #111111;
         height: 100%;
         padding-top: 150px;
         padding-bottom: 150px;
+        background-position: -350px; 
     }
     .banner-item {
         text-align: center; 
@@ -1209,11 +1214,9 @@ $black-color: #111111;
     /*----- Blog Details Page -----*/
     /*-- Page Title --*/
     .page-title-four {
-        background-size: 5px;
-        .page-title-item {
-            margin-top: 160px;
-            
-        }
+        background-size: 350px;
+        background-position:  bottom;
+        height: 200px;
     }
     /*-- End Page Title --*/
 
@@ -2144,6 +2147,7 @@ $black-color: #111111;
     /*-- End Video --*/
 
     /*-- Doctors --*/
+    
     .doctor-item {
         .doctor-top {
             a {
@@ -2350,6 +2354,8 @@ $black-color: #111111;
     }
     /*-- End Home Slider --*/
 
+
+    
     /*-- Emergency --*/
     .emergency-area {
         margin-top: 70px;

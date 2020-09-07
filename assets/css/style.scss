@@ -1981,11 +1981,11 @@ footer {
    height: 75vh;
     position: relative;
     background-image: linear-gradient(rgba(29, 157, 161, 0.719), rgba(51, 113, 194, 0.5)), url("../img/bg.jpeg");
+    
 
-  background-position: center;
-  background-repeat: no-repeat;
+  
   background-size: cover;
-  position: relative;
+  
 
   margin-bottom: 20px;
     .heart-shape {
@@ -2440,11 +2440,15 @@ footer {
 
 /*----- Doctor Page -----*/
 /*-- Page Title --*/
-.page-title-one {
-    background-image: url('../img/domed.png');
-    background-size: 1000px;
+
+.domeddesk{
+    margin: 0;
+    width: 1200px;
 }
+
 .page-title-area {
+
+   
   
     background-position: center center;
     background-repeat: no-repeat;
@@ -2464,6 +2468,8 @@ footer {
     }
 }
 .page-title-item {
+    
+
     position: relative;
     margin-top: -80px;
 
